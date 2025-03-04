@@ -109,6 +109,9 @@ const BuildingConstructionPage = () => {
 						Our approach integrates modern construction techniques with
 						sustainable practices.
 					</p>
+					<p className="text-lg max-w-5xl">
+						Services provided under building and construction include:
+					</p>
 				</div>
 			</div>
 		</div>
