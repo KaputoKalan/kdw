@@ -8,9 +8,9 @@ const SolarOffGrid = () => {
 	return (
 		<div className="min-h-screen mt-20">
 			<div
-				className="min-h-[30vh] "
+				className="min-h-[40vh] "
 				style={{
-					backgroundImage: "url('/images/dam-2.jpg')",
+					backgroundImage: "url('/images/solar.jpg')",
 					backgroundSize: "cover",
 					backgroundPosition: "center",
 				}}></div>
@@ -103,7 +103,7 @@ const SolarOffGrid = () => {
 					</div>
 					<div
 						style={{
-							backgroundImage: "url('/images/dam-1.jpg')",
+							backgroundImage: "url('/images/landing/solar.jpeg')",
 							backgroundSize: "cover",
 							backgroundPosition: "center",
 						}}
@@ -125,7 +125,7 @@ const SolarOffGrid = () => {
 				<div className="grid grid-cols-1 my-20 md:grid-cols-2 w-full gap-10">
 					<div
 						style={{
-							backgroundImage: "url('/images/dam-1.jpg')",
+							backgroundImage: "url('/images/electrical-1.jpg')",
 							backgroundSize: "cover",
 							backgroundPosition: "center",
 						}}
