@@ -5,30 +5,30 @@ import React from "react"
 
 const OurServices = () => {
 	return (
-		<div className="p-4 md:p-8 bg-slate-100 space-y-6">
+		<div className="p-4 md:py-20 bg-slate-100 space-y-6">
 			<h1 className="text-center font-bold text-4xl">Our Services</h1>
 			<div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8 w-full max-w-6xl mx-auto">
 				<Card
 					heading="Electrical Engineering"
 					description="We provide comprehensive electrical engineering solutions, including system design, installation, maintenance, and troubleshooting."
-					imgSrc="/images/electrical-1.jpg"
+					imgSrc="/projects/chinyingi/6.jpeg"
 				/>
 				<Card
 					heading="Water Engineering"
-					description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, exercitationem."
-					imgSrc="/images/dam-1.jpg"
+					description="Designing and managing water systems, including dams, pipelines, and irrigation, to ensure efficient water use and sustainability."
+					imgSrc="/projects/dam/9.jpeg"
 				/>
 				<Card
 					heading="Building Construction"
 					description="Residential, commercial buildings, renovations, township
 								infrastructure"
-					imgSrc="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+					imgSrc="/projects/double-storey-waterfalls/12.jpeg"
 				/>
 				<Card
 					heading="Solar Solutions"
 					description="Solar mini-grids, battery energy storage systems, off-grid
 								solutions"
-					imgSrc="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+					imgSrc="/projects/solar/1.jpg"
 				/>
 			</div>
 		</div>

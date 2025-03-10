@@ -8,7 +8,7 @@ const WaterEngineering = () => {
 	return (
 		<div className="min-h-screen mt-20">
 			<div
-				className="min-h-[30vh] "
+				className="min-h-[40vh] "
 				style={{
 					backgroundImage: "url('/images/dam-2.jpg')",
 					backgroundSize: "cover",

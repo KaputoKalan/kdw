@@ -80,6 +80,7 @@ import Image from "next/image"
 // }
 
 import React from "react"
+import { CheckCircle } from "lucide-react";
 
 const BuildingConstructionPage = () => {
 	return (
@@ -87,13 +88,13 @@ const BuildingConstructionPage = () => {
 			<div
 				className="min-h-[30vh] "
 				style={{
-					backgroundImage: "url('/images/image1.jpg')",
+					backgroundImage: "url('/images/landing/foundation.jpeg')",
 					backgroundSize: "cover",
 					backgroundPosition: "center",
 				}}></div>
 
-			<div className="container w-5/6 mx-auto mt-20">
-				<div className="space-y-4">
+			<div className="container w-5/6 mx-auto my-20">
+				<div className="space-y-10">
 					<h1 className="uppercase text-kdw text-2xl md:text-4xl font-bold">
 						Building Construction Services
 					</h1>
@@ -109,6 +110,43 @@ const BuildingConstructionPage = () => {
 						Our approach integrates modern construction techniques with
 						sustainable practices.
 					</p>
+				</div>
+				<div className="my-10">
+					<p className="text-lg font-semibold max-w-5xl">
+						Services provided under building and construction include:
+					</p>
+
+					<div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-4 max-w-full">
+						{/* Left Column - List of Services */}
+						<div>
+							<ol className="my-6 px-2">
+								{[
+									"Design & Construction of Residential, Public, and Commercial Buildings",
+									"Building Maintenance, Renovations, and Alterations",
+									"Landscaping Works",
+									"Township Development and Infrastructure",
+									"Aluminium Finishes, Claddings, Windows, Doors, and Shop Fronts",
+									"Roofing, Plumbing, and Electrical Works",
+									"Modern Kitchen Upgrades and Installations",
+								].map((item, index) => (
+									<li key={index} className="flex items-center gap-3 p-4">
+										<CheckCircle className="text-kdw w-6 h-6" />
+										<span>{item}</span>
+									</li>
+								))}
+							</ol>
+						</div>
+
+						{/* Right Column - Image Grid */}
+						<div className="grid grid-cols-2 gap-4">
+							{["image5.jpg", "image7.jpg", "image3.jpg", "building.jpg"].map((img, index) => (
+								<div key={index} className="relative h-50 overflow-hidden shadow-md">
+									<Image src={`/images/${img}`} alt={`Service Image ${index + 1}`} layout="fill" objectFit="cover" />
+								</div>
+							))}
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</div>
