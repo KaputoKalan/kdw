@@ -15,9 +15,8 @@ export default function Home() {
 				<SwipeCarousel />
 				<BackgroundBeamsWithCollisionHero />
 			</div>
-			<AppleCardsCarousel />
 			<WhoWeAre />
-
+			<AppleCardsCarousel />
 			<OurServices />
 		</div>
 	)

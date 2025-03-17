@@ -29,10 +29,10 @@ export default function ElectricalMechanicalEngineeringPage() {
 							efficiency, and sustainability.
 						</p>
 						<p className="text-lg">
-							We specialize in creating integrated solutions that optimize energy
-							usage, enhance comfort, and improve overall building performance.
-							Our services cover everything from initial design to installation
-							and maintenance.
+							We specialize in creating integrated solutions that optimize
+							energy usage, enhance comfort, and improve overall building
+							performance. Our services cover everything from initial design to
+							installation and maintenance.
 						</p>
 					</div>
 					<div className="relative h-[35vh] ">
@@ -49,19 +49,26 @@ export default function ElectricalMechanicalEngineeringPage() {
 				<section className="bg-white my-10">
 					<div className="py-8 sm:py-16 lg:px-6">
 						<div className="max-w-screen mb-8 lg:mb-16">
-							<h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Services</h2>
-							<p className="text-gray-500 sm:text-xl dark:text-gray-400">Our Turnkey Electrical Engineering services include:</p>
+							<h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+								Our Services
+							</h2>
+							<p className="text-gray-500 sm:text-xl dark:text-gray-400">
+								Our Turnkey Electrical Engineering services include:
+							</p>
 						</div>
 						<div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-12 md:space-y-0">
 							<div>
 								<div className="flex justify-center items-center min-w-full h-10 my-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
 									<img src="/planning.png" height={70} width={70} alt="" />
 								</div>
-								<h3 className="mb-2 text-l font-bold dark:text-white">Design, Engineering, and Planning</h3>
-								<p className="text-gray-500 dark:text-gray-400">We provide
-									tailored design solutions, ensuring that every project meets the
-									specific needs of our clients while adhering to international
-									safety and operational standards.</p>
+								<h3 className="mb-2 text-l font-bold dark:text-white">
+									Design, Engineering, and Planning
+								</h3>
+								<p className="text-gray-500 dark:text-gray-400">
+									We provide tailored design solutions, ensuring that every
+									project meets the specific needs of our clients while adhering
+									to international safety and operational standards.
+								</p>
 							</div>
 							<div>
 								<div className="flex justify-center items-center min-w-full h-10 my-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
@@ -72,9 +79,9 @@ export default function ElectricalMechanicalEngineeringPage() {
 									Procurement and Project Management
 								</h3>
 								<p className="text-gray-500 dark:text-gray-400">
-									Sourcing from trusted global manufacturers, we manage procurement
-									and logistics with precision to ensure timely delivery of
-									high-quality materials.
+									Sourcing from trusted global manufacturers, we manage
+									procurement and logistics with precision to ensure timely
+									delivery of high-quality materials.
 								</p>
 							</div>
 							<div>
@@ -87,8 +94,8 @@ export default function ElectricalMechanicalEngineeringPage() {
 								</h3>
 								<p className="text-gray-500 dark:text-gray-400">
 									From the construction of electrical systems to the final
-									commissioning and testing of installations, we ensure that every
-									system operates reliably and efficiently.
+									commissioning and testing of installations, we ensure that
+									every system operates reliably and efficiently.
 								</p>
 							</div>
 							<div>
@@ -109,7 +116,7 @@ export default function ElectricalMechanicalEngineeringPage() {
 					</div>
 				</section>
 
-				<div className="my-10">
+				{/* <div className="my-10">
 					<h2 className="text-2xl font-bold mb-4 min-w-screen mx-auto">Featured Projects</h2>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 						<CustomCard
@@ -135,7 +142,7 @@ export default function ElectricalMechanicalEngineeringPage() {
 							href="#"
 						/>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	)
